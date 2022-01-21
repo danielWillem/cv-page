@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 35%;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Azonix";
+}
+.margin {
+    margin: 0% 0;
+}
+.parallax {
+    background: url("../IMG/pict-bg.jpg") repeat fixed 100%;
+}
+.parallax-inner {
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+.title-text {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Azonix';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 4em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+.image-handler {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 35%;
+  }
+.quote {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Azonix";
+}
+.paraf-1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Azonix";
+}
+.sub-title {
+    color: white;
+    text-align: center;
+    font-family: "Azonix";
+}
+.job-table {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 45%;
+    border-radius: 35%;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Azonix";
+}
+table.skill-sub {
+    font-family: fantasy;
+    font-weight: bold;
+    color: royalblue;
+}
+table.skill-main {
+    margin: auto;
+    width: 20%;
+    border: 2px solid rgb(218, 195, 65);
+    padding: 10px;
+}
+form.form-example {
+    display: table;
+    margin: auto;
+}
+div.form-example {
+    display: table-row;
+}
+label {
+    color: white;
+    font-family: "Azonix";
+}
+h2.center {
+    text-align: center;
+    color: white;
+    font-family: "Azonix";
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgb(218, 195, 65);
+    padding: 10px;
+    background-color: rgb(218, 195, 65);
+}
+h5 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Azonix";
+}
+.video-player {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
