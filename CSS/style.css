@@ -14,15 +14,42 @@ ul {
     text-align: justify;
     font-family: "Azonix";
 }
+.navbar{
+    overflow: hidden;
+    background-color: rgb(218, 195, 65);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Azonix';
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
 .margin {
     margin: 0% 0;
+    margin-top: 30px;
 }
 .parallax {
     background: url("../IMG/pict-bg.jpg") repeat fixed 100%;
 }
+.parallax-2 {
+    background: url("../IMG/brick-wall-bnw.jpg") repeat fixed 100%;
+}
+.parallax-3 {
+    background: url("../IMG/gray-bg.jpg") repeat fixed 100%;
+}
 .parallax-inner {
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 .title-text {
     position: relative;
